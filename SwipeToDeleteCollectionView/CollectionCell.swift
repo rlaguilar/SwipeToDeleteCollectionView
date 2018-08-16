@@ -85,6 +85,8 @@ class CollectionCell: UICollectionViewCell {
     }
 }
 
+// This code is here to ensure that there is no more than one cell displaying the delete button at
+// the same time.
 extension CollectionCell: UIScrollViewDelegate {
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         NotificationCenter.default.post(name: .NotificationCellWillStartSwipping, object: self)
