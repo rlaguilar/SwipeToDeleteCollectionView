@@ -12,6 +12,8 @@
 		F18CBB7B2125C1A100192448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18CBB792125C1A100192448 /* Main.storyboard */; };
 		F18CBB7D2125C1A300192448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18CBB7C2125C1A300192448 /* Assets.xcassets */; };
 		F18CBB802125C1A300192448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18CBB7E2125C1A300192448 /* LaunchScreen.storyboard */; };
+		F18CBB882125C30500192448 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CBB872125C30500192448 /* CollectionCell.swift */; };
+		F18CBB8A2125C51900192448 /* SwappableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CBB892125C51900192448 /* SwappableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F18CBB7C2125C1A300192448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18CBB7F2125C1A300192448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18CBB812125C1A300192448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18CBB872125C30500192448 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		F18CBB892125C51900192448 /* SwappableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F18CBB752125C1A100192448 /* AppDelegate.swift */,
 				F18CBB772125C1A100192448 /* ViewController.swift */,
+				F18CBB872125C30500192448 /* CollectionCell.swift */,
+				F18CBB892125C51900192448 /* SwappableScrollView.swift */,
 				F18CBB792125C1A100192448 /* Main.storyboard */,
 				F18CBB7C2125C1A300192448 /* Assets.xcassets */,
 				F18CBB7E2125C1A300192448 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18CBB782125C1A100192448 /* ViewController.swift in Sources */,
+				F18CBB8A2125C51900192448 /* SwappableScrollView.swift in Sources */,
 				F18CBB762125C1A100192448 /* AppDelegate.swift in Sources */,
+				F18CBB882125C30500192448 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
